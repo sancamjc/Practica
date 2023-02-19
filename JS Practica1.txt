@@ -1,0 +1,213 @@
+undefined
+> var name="jose"
+undefined
+> var name="andrea"
+undefined
+> name
+'andrea'
+> name="felipe"
+'felipe'
+
+
+C:\Users\Computo>node
+Welcome to Node.js v17.4.0.
+Type ".help" for more information.
+>
+> var resultado=5+"5"
+undefined
+> var resultado=5*"5"
+undefined
+undefined
+> var name="jose"
+undefined
+> var name="andrea"
+undefined
+> bane
+Uncaught ReferenceError: bane is not defined
+> name
+'andrea'
+> name="felipe"
+'felipe'
+> let name="Julio"
+Uncaught SyntaxError: Identifier 'name' has already been declared
+> Let color="Azul"
+Let color="Azul"
+    ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier
+> Let color="Negro"
+Let color="Negro"
+    ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier
+> color="Amarillo"
+'Amarillo'
+> const name
+... cons name
+const name
+      ^^^^
+
+Uncaught SyntaxError: Missing initializer in const declaration
+> NAMES="JOSE"
+'JOSE'
+> cons NAMES="JOSE"
+cons NAMES="JOSE"
+     ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier
+> for(var i=0; i<5; i++)
+... for(var i=0; i<5; i++)
+...
+... for(var i=0; i<5; i++){console.log(i)}
+0
+1
+2
+3
+4
+undefined
+> for(let j=0; j<5: j++){console.log(j)}
+for(let j=0; j<5: j++){console.log(j)}
+                ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> for(let j=0; j<5; j++){console.log(j)}
+0
+1
+2
+3
+4
+undefined
+> var a=5
+undefined
+> typeof(a)
+'number'
+> string(a)
+Uncaught ReferenceError: string is not defined
+> var a=string(a)
+Uncaught ReferenceError: string is not defined
+> String(a)
+'5'
+> var a=String(a)
+undefined
+> name
+'felipe'
+
+C:\Users\Computo>node
+Welcome to Node.js v17.4.0.
+Type ".help" for more information.
+>
+> var resultado=5+"5"
+undefined
+> var resultado=5*"5"
+undefined
+undefined
+> var name="jose"
+undefined
+> var name="andrea"
+undefined
+> bane
+Uncaught ReferenceError: bane is not defined
+> name
+'andrea'
+> name="felipe"
+'felipe'
+> let name="Julio"
+Uncaught SyntaxError: Identifier 'name' has already been declared
+> Let color="Azul"
+Let color="Azul"
+    ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier
+> Let color="Negro"
+Let color="Negro"
+    ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier
+> color="Amarillo"
+'Amarillo'
+> const name
+... cons name
+const name
+      ^^^^
+
+Uncaught SyntaxError: Missing initializer in const declaration
+> NAMES="JOSE"
+'JOSE'
+> cons NAMES="JOSE"
+cons NAMES="JOSE"
+     ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier
+> for(var i=0; i<5; i++)
+... for(var i=0; i<5; i++)
+...
+... for(var i=0; i<5; i++){console.log(i)}
+0
+1
+2
+3
+4
+undefined
+> for(let j=0; j<5: j++){console.log(j)}
+for(let j=0; j<5: j++){console.log(j)}
+                ^
+
+undefined
+> var color = ["Negro", " Amarillo", "Rojo"]
+undefined
+> function getColorsD(valor)[console.log("El color es ${valor})}
+function getColorsD(valor)[console.log("El color es ${valor})}
+                          ^
+
+Uncaught SyntaxError: Unexpected token '['
+> for (var i=0; i< colors.length; i++){}getColorsD(colors[i])}
+for (var i=0; i< colors.length; i++){}getColorsD(colors[i])}
+                                                           ^
+
+Uncaught SyntaxError: Unexpected token '}'
+> for (var i=0; i<colors.length; i++){getColorsD(colors[i]}
+for (var i=0; i<colors.length; i++){getColorsD(colors[i]}
+                                                       ^
+
+Uncaught SyntaxError: missing ) after argument list
+> for (var i=0; i<colors.length; i++){getColorsD(colors[i])}
+Uncaught ReferenceError: colors is not defined
+> const getColorsE=function(valor){console.log(valor)}
+undefined
+> for(var color of colors){getColorsE(color)}
+Uncaught ReferenceError: colors is not defined
+> for(var colors of color){getColorsE(color)}
+[ 'Negro', ' Amarillo', 'Rojo' ]
+[ 'Negro', ' Amarillo', 'Rojo' ]
+[ 'Negro', ' Amarillo', 'Rojo' ]
+undefined
+> const getColorA=colorA =>{console.log(colorA)}
+undefined
+> for(var element of color){getColorA(element)}
+Negro
+ Amarillo
+Rojo
+undefined
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
